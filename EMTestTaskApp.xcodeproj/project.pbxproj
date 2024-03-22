@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		848C29FA2BAA22E2008445C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C29F92BAA22E2008445C3 /* AppDelegate.swift */; };
 		848C29FC2BAA22E2008445C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C29FB2BAA22E2008445C3 /* SceneDelegate.swift */; };
-		848C29FE2BAA22E2008445C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C29FD2BAA22E2008445C3 /* ViewController.swift */; };
 		848C2A032BAA22E5008445C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848C2A022BAA22E5008445C3 /* Assets.xcassets */; };
 		848C2A062BAA22E5008445C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848C2A042BAA22E5008445C3 /* LaunchScreen.storyboard */; };
-		848C2A0E2BAAA599008445C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C2A0D2BAAA599008445C3 /* ContentView.swift */; };
 		848C2A112BAAA691008445C3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C2A102BAAA691008445C3 /* Coordinator.swift */; };
 		848C2A132BAAA6E1008445C3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C2A122BAAA6E1008445C3 /* AppCoordinator.swift */; };
+		84FF18212BACBE6A000A9086 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF18202BACBE6A000A9086 /* OnboardingCoordinator.swift */; };
+		84FF18232BACBF6F000A9086 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF18222BACBF6F000A9086 /* OnboardingView.swift */; };
+		84FF18262BACC3D2000A9086 /* ScaledIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF18252BACC3D2000A9086 /* ScaledIconView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		848C29F62BAA22E2008445C3 /* EMTestTaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMTestTaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848C29F92BAA22E2008445C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848C29FB2BAA22E2008445C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		848C29FD2BAA22E2008445C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		848C2A022BAA22E5008445C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848C2A052BAA22E5008445C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848C2A072BAA22E5008445C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		848C2A0D2BAAA599008445C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		848C2A102BAAA691008445C3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		848C2A122BAAA6E1008445C3 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		84FF18202BACBE6A000A9086 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		84FF18222BACBF6F000A9086 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		84FF18252BACC3D2000A9086 /* ScaledIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledIconView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +62,15 @@
 		848C29F82BAA22E2008445C3 /* EMTestTaskApp */ = {
 			isa = PBXGroup;
 			children = (
+				84FF18242BACC3A1000A9086 /* Helper */,
+				84FF18172BAC3E3E000A9086 /* Main */,
+				84FF18162BAC3E26000A9086 /* Onboarding */,
 				848C2A0F2BAAA65A008445C3 /* Protocols */,
 				848C29F92BAA22E2008445C3 /* AppDelegate.swift */,
 				848C29FB2BAA22E2008445C3 /* SceneDelegate.swift */,
-				848C29FD2BAA22E2008445C3 /* ViewController.swift */,
 				848C2A022BAA22E5008445C3 /* Assets.xcassets */,
 				848C2A042BAA22E5008445C3 /* LaunchScreen.storyboard */,
 				848C2A072BAA22E5008445C3 /* Info.plist */,
-				848C2A0D2BAAA599008445C3 /* ContentView.swift */,
 				848C2A122BAAA6E1008445C3 /* AppCoordinator.swift */,
 			);
 			path = EMTestTaskApp;
@@ -79,6 +82,30 @@
 				848C2A102BAAA691008445C3 /* Coordinator.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		84FF18162BAC3E26000A9086 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				84FF18202BACBE6A000A9086 /* OnboardingCoordinator.swift */,
+				84FF18222BACBF6F000A9086 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		84FF18172BAC3E3E000A9086 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		84FF18242BACC3A1000A9086 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				84FF18252BACC3D2000A9086 /* ScaledIconView.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +179,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				848C2A132BAAA6E1008445C3 /* AppCoordinator.swift in Sources */,
-				848C29FE2BAA22E2008445C3 /* ViewController.swift in Sources */,
 				848C29FA2BAA22E2008445C3 /* AppDelegate.swift in Sources */,
+				84FF18212BACBE6A000A9086 /* OnboardingCoordinator.swift in Sources */,
+				84FF18262BACC3D2000A9086 /* ScaledIconView.swift in Sources */,
 				848C2A112BAAA691008445C3 /* Coordinator.swift in Sources */,
-				848C2A0E2BAAA599008445C3 /* ContentView.swift in Sources */,
+				84FF18232BACBF6F000A9086 /* OnboardingView.swift in Sources */,
 				848C29FC2BAA22E2008445C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
