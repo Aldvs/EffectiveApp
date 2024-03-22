@@ -2,7 +2,7 @@
 .DS_Store
 
 #XCode
-*xcworkspace/xcuserdata/*
+*/xcuserdata/*
 *.xccheckout
 */build/*
 *.pbxuser
